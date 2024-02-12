@@ -22,4 +22,4 @@ This Python script allows you to delete your own messages in Discord channels au
 ## Notes
 - Make sure to keep your Discord token secure and do not share it publicly.
 - By default, there's no cooldown between message deletions. You can enable a cooldown by uncommenting the line with `await asyncio.sleep(3)`.
-- Be cautious when using this script, as it will delete all messages authored by the bot account that match the specified command.
+- Be cautious when using this script
