@@ -38,7 +38,7 @@ async def delete_messages(channel):
         if msg.author == client.user and not msg.type == discord.MessageType.pins_add:
             try:
                 await msg.delete()
-                print(f"Deleted message: {msg.content} (ID: {msg.id})")
+                print(f"Deleted message: {msg.content} (User: {msg.id})")
                # await asyncio.sleep(3) # Remove the "#" in the beginning to add a cooldown
             except discord.Forbidden:
                 pass
