@@ -1,6 +1,6 @@
 # Discord Message Remover
 
-This Python script allows you to delete your own messages in Discord channels automatically. It's particularly useful for cleaning up bot commands or managing spam in your channels.
+This Python script allows you to delete your own messages in Discord
 
 ## Installation
 1. Clone or download this repository.
@@ -15,7 +15,7 @@ This Python script allows you to delete your own messages in Discord channels au
 4. The script will then start deleting your messages in the same channel where the trigger message was sent.
 
 ## Configuration
-- `token`: Your Discord bot token. You need to create a bot and get its token from the Discord Developer Portal.
+- `token`: Your Discord token.
 - `prefix`: The prefix for the command that triggers message deletion.
 - `command`: The command that triggers message deletion.
 
